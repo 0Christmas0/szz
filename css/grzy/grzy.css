@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F5F5F5;
+}
+
+.header {
+  width: 100%;
+  height: 9.85rem;
+  background: #FEA411;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.4rem;
+}
+.header img {
+  width: 4rem;
+  height: 4rem;
+}
+.header .header-top {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.header .header-top a {
+  height: 0.8rem;
+  background: #FFC801;
+  color: white;
+  cursor: crosshair;
+  font-size: 0.4rem;
+}
+
+.content {
+  width: 100%;
+  height: 4.75rem;
+  background: white;
+  color: darkgrey;
+  display: flex;
+  justify-content: space-around;
+}
+.content .content-left .p1 {
+  padding-top: 0.85rem;
+}
+.content .content-left .p2 span {
+  color: orangered;
+  font-size: 1.5rem;
+}
+.content .content-right .p3 {
+  padding-top: 0.85rem;
+}
+.content .content-right .p4 img {
+  width: 8.2rem;
+  height: 2.8rem;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0.6rem;
+  box-shadow: 1px 1px 5px darkgray;
+}
+.footer a {
+  color: darkgray;
+}
+.footer .footer-a {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-a p {
+  display: block;
+  padding-left: 50px;
+  background: url(../../img/tb1.png) no-repeat 16px 5px;
+  background-size: 30%;
+  height: 1.85rem;
+}
+.footer .footer-b {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-b p {
+  display: block;
+  padding-left: 50px;
+  background: url(../../img/tb2.png) no-repeat 16px 5px;
+  background-size: 30%;
+  height: 1.85rem;
+}
+.footer .footer-c {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-c p {
+  display: block;
+  padding-left: 50px;
+  background: url(../../img/tb3.png) no-repeat 16px 5px;
+  background-size: 30%;
+  height: 1.85rem;
+}
+.footer .footer-d {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-d p {
+  display: block;
+  padding-left: 50px;
+  background: url(../../img/tb1.png) no-repeat 16px 5px;
+  background-size: 30%;
+  height: 1.85rem;
+}
+.footer span {
+  color: orange;
+}
+
+/*# sourceMappingURL=grzy.css.map */

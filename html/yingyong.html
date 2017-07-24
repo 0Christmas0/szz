@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../css/yingyong/yingyong.css" />
+	<link rel="stylesheet" href="../iconfont/iconfont.css" />
+	<body>
+		<script>
+			function change(){
+				var oFs=document.documentElement.clientWidth/(320/20);
+				document.documentElement.style.fontSize=oFs+"px";
+			}
+			change();
+			window.onresize=function(){
+				change();
+			}
+		</script>
+		<div class="header">
+			<span class="iconfont icon-back"></span>
+			<div>账户信息</div>
+			<div></div>
+		</div>
+		<div class="content">
+		    <div>
+		    	<div>
+		    		<img src="../img/yingyong.png" />
+		    	</div>
+		    </div> 
+	    </div>
+	    
+	    <div class="p1">
+	    	<p class="p2">您的账户中暂无应用信息,</p>
+	    	<p class="p3">请用PC端登录<font>http://shanzhu.rntd.cn/</font><a href="yyxx.html">添加应用</a></p>
+	    </div>
+	</body>
+</html>

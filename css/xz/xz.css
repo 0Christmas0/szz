@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+}
+
+.header {
+  width: 100%;
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: #FA6E33;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header div {
+  font-size: 0.7rem;
+}
+
+.header-top {
+  width: 100%;
+  height: 5.3rem;
+  background: #FA6E33;
+  display: flex;
+  justify-content: space-around;
+  color: #F9E8A0;
+  font-size: 0.75rem;
+}
+.header-top .header-left {
+  margin-top: 22px;
+}
+.header-top .header-left img {
+  width: 4rem;
+  height: 2.5rem;
+}
+.header-top .header-right {
+  margin-top: 22px;
+}
+.header-top .header-right .p1 {
+  margin-bottom: 13px;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0.6rem;
+}
+.footer a {
+  color: darkgray;
+}
+.footer .footer-a {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  display: flex;
+  background: #F5F5F5;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-a p {
+  display: block;
+  padding-left: 20px;
+  height: 1.85rem;
+}
+.footer .footer-b {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-b p {
+  display: block;
+  padding-left: 20px;
+  height: 1.85rem;
+}
+.footer .footer-b .inp {
+  box-sizing: border-box;
+  width: 100px;
+  margin-left: 125px;
+  border: 0;
+  outline: none;
+}
+.footer .footer-c {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-c p {
+  display: block;
+  padding-left: 20px;
+  height: 1.85rem;
+}
+.footer span {
+  color: darkgray;
+}
+.footer b {
+  color: orangered;
+}
+.footer .footer-d {
+  height: 1.85rem;
+  line-height: 1.85rem;
+  display: flex;
+  background: #F5F5F5;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.footer .footer-d p {
+  display: block;
+  padding-left: 20px;
+  height: 1.85rem;
+}
+.footer .btn {
+  margin-top: 13px;
+  width: 100%;
+  height: 1.5rem;
+  background: orange;
+  border-radius: 5px 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=xz.css.map */

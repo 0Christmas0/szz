@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 100%;
+  width: 100%;
+  background: #F5F5F5; }
+  .header .header-t {
+    width: 100%;
+    height: 3.6rem;
+    background-color: #FFAC2C;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 3.6rem;
+    color: #FFFFFF; }
+    .header .header-t a {
+      font-size: 1.5rem;
+      float: left;
+      margin-left: 0.8rem;
+      color: #FFFFFF; }
+  .header .header-b {
+    width: 100%;
+    height: 8.5rem;
+    background-color: #FFAC2C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header .header-b .b-l {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #FFFFFF;
+      margin-left: 2rem; }
+      .header .header-b .b-l div:nth-of-type(1) img {
+        width: 5rem;
+        height: 5rem; }
+      .header .header-b .b-l div:nth-of-type(2) {
+        margin-left: 0.7rem;
+        font-size: 1rem; }
+        .header .header-b .b-l div:nth-of-type(2) P {
+          background: #FFC700;
+          margin-top: 0.6rem;
+          font-size: 0.9rem; }
+    .header .header-b .b-r {
+      margin-right: 2rem; }
+      .header .header-b .b-r div {
+        width: 7.4rem;
+        height: 2.6rem;
+        background: #FBC676;
+        text-align: center;
+        line-height: 2.6rem;
+        border-radius: 0.5rem;
+        font-size: 1rem; }
+        .header .header-b .b-r div a {
+          color: #F84E1E; }
+  .header .said {
+    width: 100%;
+    height: 3.6rem;
+    background: #F5F5F5;
+    font-size: 1.1rem;
+    color: #999999;
+    line-height: 3.6rem; }
+    .header .said p {
+      margin-left: 1.8rem; }
+  .header .content {
+    width: 100%;
+    background: #FFFFFF; }
+    .header .content div {
+      border-bottom: 1px solid #DADADA;
+      line-height: 3.9rem;
+      height: 3.9rem;
+      display: flex;
+      justify-content: space-between; }
+      .header .content div p {
+        margin-left: 1.8rem;
+        font-size: 1.5rem; }
+      .header .content div a {
+        margin-right: 1.8rem;
+        font-size: 1rem;
+        color: #DADADA; }
+        .header .content div a input {
+          height: 3.9rem;
+          text-align: center;
+          font-size: 1rem;
+          width: 7rem;
+          color: #DADADA; }
+        .header .content div a span {
+          color: #DADADA; }
+  .header .btn {
+    text-align: center;
+    margin: 0 auto;
+    height: 3.1rem;
+    margin-top: 2rem; }
+    .header .btn input {
+      width: 25rem;
+      height: 3.1rem;
+      background: #FED555;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      color: #FFFFFF; }
+  .header .pop {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 333;
+    background: #FFFFFF; }
+    .header .pop div {
+      border-bottom: 1px solid #DADADA;
+      line-height: 3rem;
+      height: 3rem;
+      text-align: center; }
+    .header .pop div:nth-of-type(3) a {
+      color: red; }
+    .header .pop .hei {
+      width: 100%;
+      height: 44.8rem;
+      background: #000000;
+      position: absolute;
+      top: -44.8rem;
+      opacity: 0.5; }

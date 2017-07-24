@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--优先使用IE最新版本和Chrome-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏 transition: 0.5s;transform: scale(1.3);-->
+		<meta name="apple-mobile-web-app-capable" content='yes' />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/system/system.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css" />
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/jquery-2.1.4.min.js"></script>
+		<title>系统设置</title>
+		<script>
+			(function(win, doc) {
+				win.onresize = function() {
+					change();
+				};
+				change();
+
+				function change() {
+					var oFs = doc.documentElement.clientWidth / (640 / 20);
+					doc.documentElement.style.fontSize = oFs + 'px';
+				}
+			})(window, document);
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-t">
+				<a class="iconfont icon-back z-draw"></a>
+				<h1>系统设置</h1>
+			</div>
+			<div class="header-b">
+				<div class="b-l">
+					<div>
+						<a href="#">
+							<img src="../img/head.png" />
+						</a>
+					</div>
+					<div>
+						<span>SZ1049</span>
+						<p class=" iconfont icon-user ">个人用户 </p>
+					</div>
+				</div>
+				<div class="b-r">
+					<div><a href="../html/personal.html">完善个人信息</a>
+						<span class="iconfont icon-arrow-right"></span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="alter">
+				<div class="alert-t">
+					<a href="../html/password.html">修改登录密码</a>
+					<span class="iconfont icon-arrow-right"></span>
+				</div>
+				<div class="alert-b">
+					<a href="../html/code.html">官方微信号</a>
+					<span class="iconfont icon-arrow-right"></span>
+				</div>
+			</div>
+			
+			<div class="quit">
+					<a href="../index.html">退出登录</a>		
+			</div>
+		</div>
+		<script>
+			window.onload = function() {
+				var green = document.documentElement.clientHeight;
+				$("body").css("height", green + 'px')
+				console.log(green)
+				
+				$(".z-draw").click(function(){
+					window.history.back()
+				})
+			}
+		</script>
+	</body>
+
+</html>

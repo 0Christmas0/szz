@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--优先使用IE最新版本和Chrome-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏 transition: 0.5s;transform: scale(1.3);-->
+		<meta name="apple-mobile-web-app-capable" content='yes' />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/code/code.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont/iconfont.css" />
+		<script src="../js/zepto.min.js"></script>
+		<script src="../js/jquery-2.1.4.min.js"></script>
+		<title></title>
+		<script>
+			(function(win, doc) {
+				win.onresize = function() {
+					change();
+				};
+				change();
+
+				function change() {
+					var oFs = doc.documentElement.clientWidth / (640 / 20);
+					doc.documentElement.style.fontSize = oFs + 'px';
+				}
+			})(window, document);
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-t">
+				<a href="../html/system.html" class="iconfont icon-back"></a>
+				<h1>官方二维码</h1>
+			</div>
+			<div class="mark">
+				<p>更多闪注实时动态，请关注微信公众账号:</p>
+			</div>
+
+			<div class="shan">
+				<p>官方微信公众号 : <span>闪注PLUS</span></p>
+			</div>
+
+			<div class="zhu">
+				<div class="sign">
+					<img src="../img/tsp.png" />
+				</div>
+				<div class="zi">
+					<p>您可以在微信搜索栏直接搜索: 闪注 plus</p>
+					<p>还可以直接扫描一下二维码关注闪注公众号</p>
+				</div>
+			</div>
+			<div class="code-t">
+				<img src="../img/code.png"/>
+			</div>
+		</div>
+
+		<script>
+		</script>
+	</body>
+
+</html>

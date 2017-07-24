@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../iconfont/iconfont.css" />
+		<link rel="stylesheet" href="../css/yyxx/yyxx.css" />
+		<link rel="stylesheet" href="../css/base.css" />
+	</head>
+	<body>
+		<script>
+			function change(){
+				var oFs=document.documentElement.clientWidth/(320/20);
+				document.documentElement.style.fontSize=oFs+"px";
+			}
+			change();
+			window.onresize=function(){
+				change();
+			}
+			function btn1(){
+				window.history.back()
+			}
+		</script>
+		<div class="header">
+			<span class="iconfont icon-back" onclick="btn1()"></span>
+			<div>应用信息</div>
+			<div class="d1"><a href="xz.html">新增应用</a></div>
+		</div>
+		<div class="header-top">
+			<div class="header-left">
+	    		<p><img src="../img/kx.png"></p>
+	    	</div>
+	    	<div class="header-right">
+	    		<p class="p1"><span>开心消消乐</span>【签名：消消消乐】</p>
+	    		<p class="p2">应用场景:APP、H5/web</p>
+	    	</div>
+		</div>
+		<section>
+			 <p><span>应用名称:</span>开心消消乐</p>
+			 <p><span>通信秘钥:</span>xxxxxx</p>
+			 <p><span>有效时间:</span>2016/7/1-2017/7/1</p>
+			 <p><font class="wz1">应用场景:APP、H5/web</font></p>
+			 <p><font class="wz1">闪注注册量:151(人)<span>短信注册量:89(人)</span></font></p>
+		</section>
+		<div class="header-bottom">
+			<div class="header-left">
+	    		<p><img src="../img/tu2.png"></p>
+	    	</div>
+	    	<div class="header-right">
+	    		<p class="p1"><span>大话西游</span>【签名:大话西游】</p>
+	    		<p class="p2">应用场景:APP、H5/web</p>
+	    	</div>
+		</div>
+		<div class="header-bottom">
+			<div class="header-left">
+	    		<p><img src="../img/tu3.png"></p>
+	    	</div>
+	    	<div class="header-right">
+	    		<p class="p1"><span>王者荣耀</span>【签名：王者荣耀】</p>
+	    		<p class="p2">应用场景:APP、H5/web</p>
+	    	</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<meta name="apple-mobile-web-app-capable" content='yes' />
+		<meta name="apple-mobile-web-app-status-bar-style" content='black' />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/cz/cz.css" />
+		<link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css" />
+		<script src="../js/jquery-3.1.1.min.js"></script>
+		<script src="../js/font-size.js"></script>
+		<script src="../js/cz.js"></script>
+		<style type="text/css">
+			.pw-strength {
+				clear: both;
+				position: relative;
+				top: 8px;
+				width: 180px;
+			}
+			
+			.pw-bar {
+				background: url(../img/pwd-1.png) no-repeat;
+				height: 14px;
+				overflow: hidden;
+				width: 179px;
+			}
+			
+			.pw-bar-on {
+				background: url(../img/pwd-2.png) no-repeat;
+				width: 0px;
+				height: 14px;
+				position: absolute;
+				top: 0px;
+				left: 2px;
+				transition: width .5s ease-in;
+				-moz-transition: width .5s ease-in;
+				-webkit-transition: width .5s ease-in;
+				-o-transition: width .5s ease-in;
+			}
+			
+			.pw-weak .pw-defule {
+				width: 0px;
+			}
+			
+			.pw-weak .pw-bar-on {
+				width: 60px;
+			}
+			
+			.pw-medium .pw-bar-on {
+				width: 120px;
+			}
+			
+			.pw-strong .pw-bar-on {
+				width: 179px;
+			}
+			
+			.pw-txt {
+				width: 180px;
+				overflow: hidden;
+			}
+			
+			.pw-txt span {
+				color: #707070;
+				float: left;
+				font-size: 12px;
+				text-align: center;
+				width: 58px;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<a href=""><img src="../img/zuo.png" class="z-draw"/></a>
+			<span>忘记密码</span>
+			<a href=""><img src="../img/zuo.png" /></a>
+		</header>
+		
+		
+		
+		<form class="content">
+			<div class="con-o">重置您的登录密码</div>
+			<div class="con-t">
+				<img src="../img/suos.png" alt="" />
+				<span class="tbl-txt"><input type="password" placeholder="请输入与6-24位的登录密码" id="pass" maxlength="24" name="pass" /></span>
+				<img src="../img/yan.png" class="x" />
+			</div>
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td id="level" class="pw-strength">
+						<div class="pw-bar"></div>
+						<div class="pw-bar-on"></div>
+						<div class="pw-txt">
+							<span>弱</span>
+							<span>中</span>
+							<span>强</span>
+						</div>
+					</td>
+				</tr>
+			</table>
+			<a href="javascript:;" class="con-dl"><input type="button" value="确定" class="btn" /></a>
+		</form>
+		
+		
+		
+		
+		<div id="wrap">
+			<div class="wrap-con">
+				<p>重置密码成功，请重新登录！</p>
+				<p>
+					<input type="button" value="确认" class="wrap-btn" />
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>

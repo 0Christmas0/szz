@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="../css/grzy/grzy.css" />
+	<link rel="stylesheet" href="../css/base.css" />
+	<link rel="stylesheet" href="../iconfont/iconfont.css" />
+	<body>
+		<script>
+			function change(){
+				var oFs=document.documentElement.clientWidth/(320/20);
+				document.documentElement.style.fontSize=oFs+"px";
+			}
+			change();
+			window.onresize=function(){
+				change();
+			}
+		</script>
+		<div class="header">
+		    <div>
+		    	<img src="../img/sz.png" />
+		    	<div class="header-top">
+		    		  <span>SZ1049</span>&nbsp;&nbsp;
+		    		  <a href="javascript:;" class="iconfont icon-user" onclick="on()">个人用户</a>
+		    	</div>
+		    </div> 
+	    </div>
+	    <div class="content">
+	    	<div class="content-left">
+	    		<p class="p1">账户共计应用</p>
+	    		<p class="p2">共<span id="dian"></span>(款应用)</p>
+	    	</div>
+	    	<div class="content-right">
+	    	    <p class="p3">近七日注册量</p>
+	    	    <p class="p4"><img src="../img/tj.png"></p>
+	    	</div>
+	    </div>
+	        <div class="footer">
+	        	<a href="yyxx.html"><div class="footer-a">
+	        		<p>应用信息</p>
+	        		<div>
+	        			<span>账户共计<span id="yy">3</span>款应用</span>
+	        			<a class="iconfont icon-arrow-right"></a>
+	        		</div>
+	        	</div></a>
+	        	<div class="footer-b">
+	        		<p><a href="zcl.html">注册量统计</a></p>
+	        		<div>
+	        			<span>今日注册468人</span>
+	        			<a class="iconfont icon-arrow-right"></a>
+	        		</div>
+	        	</div>
+	        	<div class="footer-c">
+	        		<p><a href="zhxx.html">账户信息</a></p>
+	        		<div>
+	        			<a class="iconfont icon-arrow-right"></a>
+	        		</div>
+	        	</div>
+	        	<div class="footer-d">
+	        		<p><a href="system.html">系统设置</a></p>
+	        		<div>
+	        			<a class="iconfont icon-arrow-right"></a>
+	        		</div>
+	        	</div>
+	        </div>
+	    <script>
+	        var dian=document.getElementById("dian");
+	        var yy=document.getElementById("yy");
+	        dian.innerHTML=3;
+//	        console.log(dian)
+	        function on(){
+	        	dian.innerHTML++;
+	        	yy.innerHTML++;
+	        }
+	    </script>
+	</body>
+</html>

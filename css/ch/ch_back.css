@@ -1,0 +1,176 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  list-style: none; }
+  * a {
+    text-decoration: none; }
+
+html, body {
+  background: #f5f5f5;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+header {
+  width: 100%;
+  height: 6.8rem;
+  background: #fa5a2a; }
+  header div:nth-child(1) {
+    float: left;
+    width: 100%;
+    padding-top: 0.7rem; }
+    header div:nth-child(1) .clearfix:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    header div:nth-child(1) p:nth-child(1) {
+      width: 10%;
+      float: left;
+      padding-left: 0.4rem; }
+      header div:nth-child(1) p:nth-child(1) a img {
+        width: 0.45rem; }
+    header div:nth-child(1) p:nth-child(2) {
+      width: 80%;
+      float: left;
+      font-size: 0.7rem;
+      color: #fff;
+      padding-left: 5.25rem; }
+  header div:nth-child(2) {
+    width: 100%;
+    float: left;
+    margin-top: 0.8rem; }
+    header div:nth-child(2) .clearfix:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    header div:nth-child(2) p:nth-child(1) {
+      float: left;
+      width: 2.125rem;
+      height: 2.125rem;
+      border: 3px solid #ffab2b;
+      font-size: 0.7rem;
+      color: #fff;
+      text-align: center;
+      line-height: 2.125rem;
+      border-radius: 50%;
+      margin-left: 4.25rem; }
+    header div:nth-child(2) p:nth-child(2) {
+      float: left; }
+      header div:nth-child(2) p:nth-child(2) span {
+        display: block; }
+      header div:nth-child(2) p:nth-child(2) span:nth-child(1) {
+        font-size: 0.4rem;
+        color: #fccbc2;
+        margin-top: 0.45rem;
+        margin-left: 0.75rem; }
+      header div:nth-child(2) p:nth-child(2) span:nth-child(2) {
+        margin-top: -0.2rem;
+        margin-left: 0.45rem; }
+        header div:nth-child(2) p:nth-child(2) span:nth-child(2) img {
+          width: 3.05rem; }
+    header div:nth-child(2) p:nth-child(3) {
+      float: left;
+      width: 2.125rem;
+      height: 2.125rem;
+      border: 3px solid #fff;
+      font-size: 0.7rem;
+      color: #fff;
+      text-align: center;
+      line-height: 2.125rem;
+      border-radius: 50%;
+      margin-left: 0.8rem;
+      background: #ffac2c; }
+  header div:nth-child(3) {
+    width: 100%;
+    font-size: 0.55rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.75rem; }
+  header .clearfix:after {
+    display: block;
+    clear: both;
+    content: ''; }
+
+main {
+  flex-grow: 1;
+  position: relative; }
+  main .main_yue {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.5rem;
+    color: #a3a3a3;
+    margin-left: 0.6rem; }
+  main .yue_list {
+    width: 100%;
+    height: 3.85rem;
+    background: #fff; }
+    main .yue_list li {
+      width: 100%;
+      border-top: 1px solid #e4e4e4;
+      border-bottom: 1px solid #e4e4e4;
+      line-height: 1.9rem; }
+      main .yue_list li span {
+        display: inline-block; }
+      main .yue_list li span:nth-child(1) {
+        width: 0.6rem;
+        color: #575757;
+        width: 30%;
+        margin-left: 0.7rem; }
+      main .yue_list li span:nth-child(2) {
+        font-size: 0.65rem;
+        color: #989898;
+        margin-left: -2.35rem; }
+  main .yue_put {
+    width: 90%;
+    margin: 0 auto;
+    height: 1.55rem; }
+    main .yue_put input {
+      width: 100%;
+      font-size: 0.6rem;
+      text-align: center;
+      line-height: 1.55rem;
+      color: #fff;
+      background: #fed555;
+      border-radius: 5px;
+      margin-top: 0.7rem; }
+  main .tankuan {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #fff;
+    position: absolute;
+    top: 2.4rem;
+    left: 15%;
+    display: none;
+    z-index: 3; }
+    main .tankuan p:nth-child(1) {
+      width: 100%;
+      height: 4.5rem;
+      text-align: center;
+      font-size: 0.7rem;
+      line-height: 4.5rem;
+      background: #fff;
+      border-radius: 5px; }
+    main .tankuan p:nth-child(2) input {
+      width: 100%;
+      height: 1rem;
+      line-height: 1rem;
+      text-align: center;
+      font-size: 0.6rem;
+      background: #ffd974;
+      color: #fff;
+      border-radius: 0px 0px 5px 5px; }
+
+.tm {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  display: none; }
+
+/*# sourceMappingURL=ch_back.css.map */
